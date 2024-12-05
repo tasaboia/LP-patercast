@@ -3,14 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Hero() {
   return (
-    <section className="relative flex flex-wrap  lg:pl-20 lg:py-0  overflow-hidden bg-primary-600">
-      <div className=" w-full lg:w-1/2 lg:h-screen px-12 pt-10">
-        <div className="w-full h-full lg:py-10 gap-6 md:gap-0 lg:gap-0 lg:justify-around flex flex-col ">
-          <h1 className="font-ebGaramond font-bold text-4xl md:text-5xl lg:text-8xl xl:text-10xl text-white tracking-tighter">
+    <section className="relative flex flex-wrap  lg:px-10 overflow-hidden bg-primary-600">
+      <div className=" w-full lg:w-1/2 lg:h-screen ">
+        <div className="w-full h-full gap-8 lg:pl-20 px-16 pt-12 justify-center flex flex-col ">
+          <h1 className="font-ebGaramond font-bold text-4xl md:text-8xl lg:text-8xl xl:text-8xl text-white tracking-tighter">
             Junte-se{" "}
             <span className="text-orange-500 ">Comunidade PaterCast</span>
           </h1>
-          <p className="text-base lg:text-lg text-white font-sans  lg:max-w-[80%] text-justify">
+          <p className="text-base lg:text-lg text-white font-sans text-justify">
             Descubra um espaço onde você pode se fortalecer como homem e pai.
             Aqui, você terá acesso a conteúdos transformadores, encontros ao
             vivo que inspiram e uma rede de homens dedicados a construir
@@ -24,12 +24,16 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <div className="w-full lg:w-1/2 h-auto">
+      <div className="relative w-full lg:w-1/2 h-screen">
+        <div className="absolute inset-0 z-0 bg-gradient-to-br from-[#1D342A] via-white/10 to-transparent rounded-full blur-3xl"></div>
+
         <Image
-          src="/images/background-hero-cut.png"
+          src="/images/bg-hero.png"
           alt="Hero Image"
-          width={950}
-          height={700}
+          width={1680}
+          height={1260}
+          quality={100}
+          className="w-full h-full object-contain relative z-10"
         />
       </div>
     </section>

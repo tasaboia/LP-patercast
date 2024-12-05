@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Product() {
   return (
-    <section className="py-24 overflow-hidden bg-primary-600">
+    <section className="pb-24 overflow-hidden bg-primary-600">
       <div className="container px-4 mx-auto bg-primary-400 rounded-6xl">
         <div className="py-14 bg-gradient-radial-dark rounded-6xl">
           <div className="md:max-w-2xl mx-auto text-center px-4">
