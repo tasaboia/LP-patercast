@@ -74,10 +74,17 @@ export default function Pricing() {
             className="w-full md:w-1/4 p-4 bg-[#151515] rounded-4xl flex flex-col gap-4 hover:scale-105 transition-transform duration-300"
             variants={cardVariants}
           >
-            <p className="rounded-2xl bg-[#4D765E] text-center p-2 font-semibold">
+            <p className="rounded-2xl   text-center p-2 font-semibold">
               Assinatura <strong>Mensal</strong>
             </p>
             <p className="text-5xl font-bold pb-8">R$ 129 /m</p>
+            <Link
+              className="w-full py-2  text-center tracking-tighter   bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-xl uppercase rounded-full transition duration-300"
+              target="_blank"
+              href="https://hotmart.com/pt-br/marketplace/produtos/comunidade-pastercast/W95234954N?off=myuyctek&fbclid=PAZXh0bgNhZW0CMTEAAabUytJo8wzx7sksZ0nTgbX24FvXjSH96i0_y1_wuO7bM1z1iozwS8m49yw_aem_Eo38u-9CVjYTuaVQU7w_IA"
+            >
+              Assinar agora
+            </Link>
           </motion.div>
 
           {/* Annual Plan */}
@@ -88,14 +95,20 @@ export default function Pricing() {
             <div className="absolute -top-4 -right-4 bg-orange-500 text-xs text-white font-bold px-4 py-1 rounded-full">
               Melhor Valor
             </div>
-            <p className="rounded-2xl bg-[#4D765E] text-center p-2 font-semibold">
+            <p className="rounded-2xl   text-center p-2 font-semibold">
               Assinatura <strong>Anual</strong>
             </p>
             <p className="text-5xl font-bold pb-8">R$ 1.428 /a</p>
+            <Link
+              className="w-full py-2  text-center tracking-tighter   bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-xl uppercase rounded-full transition duration-300"
+              target="_blank"
+              href="https://hotmart.com/pt-br/marketplace/produtos/comunidade-pastercast/W95234954N"
+            >
+              Assinar agora
+            </Link>
           </motion.div>
         </motion.div>
 
-        {/* Call to Action */}
         <motion.div
           className="flex flex-col gap-8 text-xl justify-center items-center font-sans font-semibold text-center py-10"
           initial={{ opacity: 0 }}
@@ -113,12 +126,6 @@ export default function Pricing() {
             decidir que a Comunidade não é para você, reembolsaremos o valor
             integral.
           </p>
-          <Link
-            className="inline-block max-w-md lg:w-1/2 text-center px-8 py-4 tracking-tighter   bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-xl uppercase rounded-full transition duration-300"
-            href="#"
-          >
-            Quero fazer parte agora
-          </Link>
         </motion.div>
       </div>
     </section>

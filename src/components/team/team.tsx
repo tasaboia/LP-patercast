@@ -17,7 +17,7 @@ export default function Team() {
         });
       },
       {
-        threshold: 0.2, // Ativa quando 20% da seção está visível
+        threshold: 0.2,
       }
     );
 
@@ -55,7 +55,6 @@ export default function Team() {
             initial="hidden"
             animate={isVisible ? "visible" : "hidden"}
           >
-            {/* Imagem */}
             <motion.div
               className="w-full md:w-1/2 p-8 lg:p-12"
               variants={itemVariants}
@@ -71,7 +70,6 @@ export default function Team() {
               </div>
             </motion.div>
 
-            {/* Texto */}
             <motion.div
               className="w-full md:w-1/2 p-8 lg:p-12 text-lg font-sans"
               variants={itemVariants}
@@ -90,14 +88,13 @@ export default function Team() {
               </p>
             </motion.div>
 
-            {/* Botão */}
             <motion.div
               className="w-full justify-center items-center flex"
               variants={itemVariants}
             >
               <Link
-                className="w-full flex justify-center items-center max-w-sm text-center gap-4 p-2 tracking-tighter text-white bg-[#4D765E] hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-xl uppercase rounded-full transition duration-300"
-                href="#"
+                className="w-full flex justify-center items-center max-w-sm text-center gap-4 p-2 tracking-tighter text-white bg-[#4D765E] hover:bg-orange-400  focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-xl uppercase rounded-full transition duration-300"
+                href="#pricing"
               >
                 <Image src="/icons/icon.png" width={30} height={30} alt="" />
                 ⁠7 dias de cancelamento

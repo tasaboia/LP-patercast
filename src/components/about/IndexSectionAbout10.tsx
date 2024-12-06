@@ -93,7 +93,7 @@ export default function About() {
               >
                 <Link
                   className="inline-block text-center px-4 py-2 lg:px-8 lg:py-4 tracking-tighter   bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-xl uppercase rounded-full transition duration-300"
-                  href="#"
+                  href="#pricing"
                 >
                   EU ME ENCAIXO NESSE GRUPO DE HOMENS!
                 </Link>

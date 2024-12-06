@@ -12,7 +12,7 @@ export default function ExclusiveContent() {
       </p>
       <Link
         className="inline-block  z-10 lg:w-1/2 text-center  px-12 py-4 tracking-tighter border- bg-orange-500 hover:bg-orange-400  text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-xl uppercase rounded-full transition duration-300"
-        href="#"
+        href="#pricing"
       >
         Eu quero o conteúdo exclusivo!
       </Link>
