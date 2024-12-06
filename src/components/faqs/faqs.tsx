@@ -16,7 +16,7 @@ export default function FAQS() {
     },
     {
       question: "Posso cancelar minha assinatura?",
-      answer: "Claro! E você ainda conta com nossa garantia de 30 dias.",
+      answer: "Claro! E você ainda conta com nossa garantia de 7 dias.",
     },
   ];
 
