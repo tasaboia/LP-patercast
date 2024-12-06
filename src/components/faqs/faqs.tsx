@@ -76,7 +76,7 @@ export default function FAQS() {
             </div>
           ))}
         </div>
-        <div className="mt-6 w-full flex justify-center">
+        <div className="mt-12 w-full flex justify-center">
           <Link
             className="  text-center  px-6 py-4 tracking-tighter   bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-2xl uppercase rounded-full transition duration-300 transform hover:scale-105 animate-fade-in delay-300"
             href="#pricing"
