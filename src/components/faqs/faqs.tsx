@@ -6,15 +6,17 @@ export default function FAQS() {
   const faqs = [
     {
       question: "Não sou pai ou casado, posso participar?",
-      answer: "resposta",
+      answer:
+        "Sim! Se você é homem e acredita no impacto que pode gerar, esta comunidade é para você.",
     },
     {
       question: "Como funcionam os encontros ao vivo?",
-      answer: "resposta",
+      answer:
+        "São 2 encontros por mês: um com um convidado especial e outro com os hosts, abordando temas práticos e inspiradores.",
     },
     {
       question: "Posso cancelar minha assinatura?",
-      answer: "resposta",
+      answer: "Claro! E você ainda conta com nossa garantia de 30 dias.",
     },
   ];
 
