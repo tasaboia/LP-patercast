@@ -7,18 +7,18 @@ export default function Hero() {
     <section className="relative flex flex-wrap overflow-hidden animated-background min-h-screen bg-gradient-to-r from-primary-600 ">
       <div className="lg:h-screen px-8 lg:w-[40%] w-full lg:pl-32 pt-10 lg:pt-0">
         <div className="h-full gap-6 w-full justify-center flex flex-col">
-          <h1 className="font-ebGaramond font-bold max-w-xs text-5xl sm:text-5xl lg:text-7xl xl:text-8xl text-white tracking-tighter animate-fade-down">
+          <h1 className="font-ebGaramond font-bold max-w-xs text-5xl sm:text-5xl lg:text-7xl xl:text-8xl text-white tracking-tighter animate-fade-down delay-200">
             Junte-se{" "}
             <span className="text-orange-500">Comunidade PaterCast</span>
           </h1>
-          <p className="text-base max-w-lg lg:text-lg text-white font-sans text-justify animate-fade-up delay-200">
+          <p className="text-base max-w-lg lg:text-lg text-white font-sans text-justify animate-fade-in delay-200">
             Descubra um espaço onde você pode se fortalecer como homem e pai.
             Aqui, você terá acesso a conteúdos transformadores, encontros ao
             vivo que inspiram e uma rede de homens dedicados a construir
             famílias sólidas e saudáveis.
           </p>
           <Link
-            className="max-w-lg text-center px-8 py-4 tracking-tighter   bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-2xl uppercase rounded-full transition duration-300 transform hover:scale-105 animate-fade-up delay-300"
+            className="max-w-lg text-center px-8 py-4 tracking-tighter   bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-2xl uppercase rounded-full transition duration-300 transform hover:scale-105 animate-fade-in delay-300"
             href="#pricing"
           >
             Quero fazer parte agora
