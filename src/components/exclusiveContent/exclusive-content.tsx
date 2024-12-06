@@ -11,7 +11,7 @@ export default function ExclusiveContent() {
         conteúdo exclusivo para conhecer mais sobre essa jornada!
       </p>
       <Link
-        className="inline-block  z-10 lg:w-1/2 text-center  p-2 tracking-tighter border- bg-orange-500 hover:bg-orange-400  text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-xl uppercase rounded-full transition duration-300"
+        className="inline-block  z-10 lg:w-1/2 text-center  px-12 py-4 tracking-tighter border- bg-orange-500 hover:bg-orange-400  text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-xl uppercase rounded-full transition duration-300"
         href="#"
       >
         Eu quero o conteúdo exclusivo!

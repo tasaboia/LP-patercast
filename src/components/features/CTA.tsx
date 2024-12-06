@@ -6,16 +6,16 @@ export default function CTA() {
       <div className="container px-4 mx-auto">
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-wrap lg:items-center">
-            <div className="w-full md:w-1/2 p-8 lg:p-12">
+            <div className="w-full md:w-1/2 p-2 lg:p-12">
               <h2 className="mb-6 font-ebGaramond text-7xl text-white tracking-tighter-xl">
                 O que você encontra na{" "}
                 <span className="text-orange-500">Comunidade PaterCast</span>
               </h2>
-              <p className="mb-8 italic text-3xl text-white max-w-xs">
+              <p className="mb-8 font-heading italic text-3xl text-white max-w-xs">
                 E ainda um bônus especial para você!
               </p>
             </div>
-            <div className="w-full flex flex-col px-8 lg:p-0 gap-6 md:w-1/2">
+            <div className="w-full flex flex-col px-2 lg:p-0 gap-6 md:w-1/2">
               <div className="border rounded-xl p-4 text-white font-sans font-semibold  text-xl border-orange-500">
                 <p>
                   Na Comunidade PaterCast, você terá acesso a pilares essenciais
@@ -30,6 +30,7 @@ export default function CTA() {
                       alt=""
                       width={71}
                       height={58}
+                      className="w-[71px] h-[58px] object-contain"
                     />
                   </div>
                   <div>
@@ -47,6 +48,7 @@ export default function CTA() {
                       alt=""
                       width={71}
                       height={58}
+                      className="w-[71px] h-[58px] object-contain"
                     />
                   </div>
                   <div>
@@ -64,6 +66,7 @@ export default function CTA() {
                       alt=""
                       width={71}
                       height={58}
+                      className="w-[71px] h-[58px] object-contain"
                     />
                   </div>
                   <div>
