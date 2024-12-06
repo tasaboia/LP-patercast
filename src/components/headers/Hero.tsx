@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative flex flex-wrap overflow-hidden animated-background min-h-screen bg-gradient-to-r from-primary-600 via-primary-400 to-primary-500">
       <div className=" lg:h-screen px-8 lg:w-[40%] w-full lg:pl-32 pt-10 lg:pt-0 ">
-        <div className=" h-full  gap-6 w-full justify-center lg:items-center flex flex-col ">
+        <div className=" h-full  gap-6 w-full justify-center   flex flex-col ">
           <h1 className="font-ebGaramond font-bold max-w-xs text-5xl sm:text-5xl lg:text-7xl xl:text-8xl text-white tracking-tighter    ">
             Junte-se{" "}
             <span className="text-orange-500">Comunidade PaterCast</span>
@@ -17,7 +17,7 @@ export default function Hero() {
             famílias sólidas e saudáveis.
           </p>
           <Link
-            className="  max-w-lg text-center  px-8 py-2 tracking-tighter border- bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-2xl uppercase rounded-full transition duration-300"
+            className="  max-w-lg text-center  px-8 py-4 tracking-tighter border- bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-2xl uppercase rounded-full transition duration-300"
             href="#"
           >
             Quero fazer parte agora
