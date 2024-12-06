@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="lg:h-screen px-8 lg:w-[40%] w-full lg:pl-32 pt-10 lg:pt-0">
         <div className="h-full gap-6 w-full justify-center flex flex-col">
           <h1 className="font-ebGaramond font-bold max-w-xs text-5xl sm:text-5xl lg:text-7xl xl:text-8xl text-white tracking-tighter animate-fade-down delay-200">
-            Junte-se{" "}
+            Junte-se à
             <span className="text-orange-500">Comunidade PaterCast</span>
           </h1>
           <p className="text-base max-w-lg lg:text-lg text-white font-sans text-justify animate-fade-in delay-200">
