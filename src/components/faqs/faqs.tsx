@@ -70,7 +70,7 @@ export default function FAQS() {
                   activeIndex === index ? "max-h-screen py-4 px-12" : "max-h-0"
                 }`}
               >
-                <p className="text-lg text-gray-500">{faq.answer}</p>
+                <p className="text-lg text-white font-sans">{faq.answer}</p>
               </div>
             </div>
           ))}
