@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Hero() {
   return (
-    <section className="relative flex flex-wrap overflow-hidden bg-primary-600">
+    <section className="relative flex flex-wrap overflow-hidden  animated-background h-screen bg-gradient-to-r from-primary-600 via-primary-400 to-primary-500">
       <div className=" lg:h-screen px-8 lg:w-[40%] w-full lg:pl-32 pt-10 lg:pt-0 ">
         <div className=" h-full  gap-6 w-full justify-center items-center flex flex-col ">
           <h1 className="font-ebGaramond font-bold text-4xl md:text-5xl sm:text-5xl lg:text-7xl xl:text-8xl text-white tracking-tighter  ">
@@ -24,17 +24,31 @@ export default function Hero() {
           </Link>
         </div>
       </div>
-      <div className="relative w-full lg:w-3/5 lg:h-screen lg:absolute lg:right-0 lg:top-0 lg:translate-x-0 lg:translate-y-0 flex justify-center items-center lg:items-start lg:justify-end">
-        <div className="absolute ml-20  inset-0 z-0 bg-gradient-to-br from-[#0d5838] via-white/10 to-transparent rounded-full blur-3xl"></div>
+      <div className="relative w-full lg:w-3/5 h-screen lg:absolute lg:right-0 lg:top-0 lg:translate-x-0 lg:translate-y-0 flex justify-center items-center lg:items-start lg:justify-end">
+        <div className="absolute ml-20 inset-0 z-0 bg-gradient-to-br from-[#0d5838] via-white/10 to-transparent rounded-full blur-3xl"></div>
 
+        {/* Imagem 1 (lines.svg) */}
         <Image
-          src="/images/bg-hero.png"
-          alt="Hero Image"
+          src="https://static.shuffle.dev/components/preview/697340ff-5445-426e-84bf-57e856b9afbf/assets/public/nightsable-assets/images/headers/lines.svg"
+          alt="Hero Image 1"
           width={1680}
           height={1260}
           quality={100}
-          className="w-full h-full object-contain relative z-10"
+          className="absolute w-full h-auto object-contain z-10"
         />
+
+        <div className="absolute w-full h-full z-20">
+          <Image
+            src="/images/bg-hero.png"
+            alt="Hero Image 2"
+            width={1680}
+            height={1260}
+            quality={100}
+            className="w-full h-full object-cover"
+          />
+          {/* Gradiente para escurecer o topo */}
+          <div className="absolute inset-0  rounded-full blur-3xl bg-gradient-to-t from-gray-800 via-transparent to-transparent "></div>
+        </div>
       </div>
     </section>
   );

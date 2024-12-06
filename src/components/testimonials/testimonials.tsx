@@ -14,7 +14,14 @@ export default function Testimonials() {
         </div>
         <div className="flex flex-wrap justify-center">
           <div className="w-full md:w-1/2 lg:w-1/3 p-5 ">
-            <div className="px-9 py-10 h-full bg-gradient-radial-dark bg-primary-400 rounded-3xl">
+            <div className="relative px-9 py-10 h-full bg-gradient-radial-dark bg-primary-400 rounded-3xl">
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20"
+              >
+                <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-primary-600"></div>
+                <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-primary-600"></div>
+              </div>
               <div className="flex justify-start gap-2 mb-4">
                 {[...Array(5)].map((_, index) => (
                   <svg
@@ -36,7 +43,14 @@ export default function Testimonials() {
             </div>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/3 p-5 ">
-            <div className="px-9 py-10 h-full bg-gradient-radial-dark bg-primary-400  rounded-3xl">
+            <div className=" relative px-9 py-10 h-full bg-gradient-radial-dark bg-primary-400  rounded-3xl">
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-20"
+              >
+                <div className="blur-[106px] h-56 bg-gradient-to-br to-purple-400 from-primary-600"></div>
+                <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-primary-600"></div>
+              </div>
               <div className="flex justify-start gap-2 mb-4">
                 {[...Array(5)].map((_, index) => (
                   <svg
