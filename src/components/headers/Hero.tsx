@@ -17,7 +17,7 @@ export default function Hero() {
             famílias sólidas e saudáveis.
           </p>
           <Link
-            className="inline-block max-w-sm  text-center  p-2 tracking-tighter border- bg-orange-500 hover:bg-orange-400  text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-xl uppercase rounded-full transition duration-300"
+            className="flex max-w-lg  text-center  px-8 py-2 tracking-tighter border- bg-orange-500 hover:bg-orange-400  text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-2xl uppercase rounded-full transition duration-300"
             href="#"
           >
             Quero fazer parte agora
@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="relative w-full lg:w-3/5 lg:h-screen lg:absolute lg:right-0 lg:top-0 lg:translate-x-0 lg:translate-y-0 flex justify-center items-center lg:items-start lg:justify-end">
-        <div className="absolute inset-0 z-0 bg-gradient-to-br from-[#1D342A] via-white/10 to-transparent rounded-full blur-3xl"></div>
+        <div className="absolute ml-20  inset-0 z-0 bg-gradient-to-br from-[#0d5838] via-white/10 to-transparent rounded-full blur-3xl"></div>
 
         <Image
           src="/images/bg-hero.png"
