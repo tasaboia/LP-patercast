@@ -86,6 +86,11 @@ export default {
         ping: "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
         pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         bounce: "bounce 1s infinite",
+        "fade-in": "fadeIn 1.5s ease-in forwards",
+        "fade-up": "fadeUp 1s ease-in forwards",
+        "fade-down": "fadeDown 1s ease-in forwards",
+        "slide-in": "slideIn 1.2s ease-in-out forwards",
+        expand: "expand 1.5s ease-in-out forwards",
       },
 
       backgroundPosition: {
@@ -564,6 +569,26 @@ export default {
             transform: "none",
             animationTimingFunction: "cubic-bezier(0,0,0.2,1)",
           },
+        },
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        fadeUp: {
+          "0%": { opacity: "0", transform: "translateY(20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        fadeDown: {
+          "0%": { opacity: "0", transform: "translateY(-20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        slideIn: {
+          "0%": { opacity: "0", transform: "translateX(-100%)" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        expand: {
+          "0%": { transform: "scale(0)" },
+          "100%": { transform: "scale(1)" },
         },
       },
       letterSpacing: {
