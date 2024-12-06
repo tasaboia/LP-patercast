@@ -19,7 +19,7 @@ export default function Hero() {
           </p>
           <Link
             className="max-w-lg text-center px-8 py-4 tracking-tighter   bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-2xl uppercase rounded-full transition duration-300 transform hover:scale-105 animate-fade-up delay-300"
-            href="#"
+            href="#pricing"
           >
             Quero fazer parte agora
           </Link>
