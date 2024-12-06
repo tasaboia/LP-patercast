@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 export default function FAQS() {
@@ -25,7 +26,7 @@ export default function FAQS() {
   };
 
   return (
-    <section className="py-24 overflow-hidden font-sans rounded-t-6xl">
+    <section className="py-24 overflow-hidden  font-sans rounded-t-6xl">
       <div className="container px-4 mx-auto">
         <div className="mb-16 md:max-w-2xl text-center mx-auto">
           <h2 className="font-sans font-semibold text-7xl lg:text-8xl text-white tracking-7xl lg:tracking-8xl">
@@ -74,6 +75,14 @@ export default function FAQS() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="mt-6 w-full flex justify-center">
+          <Link
+            className="  text-center  px-6 py-4 tracking-tighter   bg-orange-500 hover:bg-orange-400 text-primary-500 focus:ring-4 focus:ring-orange-400 focus:ring-opacity-40 font-sans font-bold text-md lg:text-2xl uppercase rounded-full transition duration-300 transform hover:scale-105 animate-fade-in delay-300"
+            href="#pricing"
+          >
+            Tomei minha decisão. Vou fazer parte!
+          </Link>
         </div>
       </div>
     </section>
